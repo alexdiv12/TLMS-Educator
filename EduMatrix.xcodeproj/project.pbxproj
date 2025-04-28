@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A98806B82C356E0C005D2F17 /* EduMatrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98806B72C356E0C005D2F17 /* EduMatrixApp.swift */; };
+		A98806BA2C356E0C005D2F17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98806B92C356E0C005D2F17 /* ContentView.swift */; };
+		A98806BC2C356E0E005D2F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98806BB2C356E0E005D2F17 /* Assets.xcassets */; };
+		A98806BF2C356E0E005D2F17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98806BE2C356E0E005D2F17 /* Preview Assets.xcassets */; };
+		A99212EB2C482DAD001BD986 /* forgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99212EA2C482DAD001BD986 /* forgotPassword.swift */; };
+		A99985B42C3FA0900056D68B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A99985B32C3FA0900056D68B /* FirebaseAuth */; };
+		A99985B62C3FA0900056D68B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A99985B52C3FA0900056D68B /* FirebaseFirestore */; };
+		A99985B82C3FA0900056D68B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A99985B72C3FA0900056D68B /* FirebaseStorage */; };
+		A99985BA2C3FA0B40056D68B /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99985B92C3FA0B40056D68B /* Services.swift */; };
+		A99985BC2C3FA13C0056D68B /* Data Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99985BB2C3FA13C0056D68B /* Data Model.swift */; };
+		A99985BE2C3FAC780056D68B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A99985BD2C3FAC780056D68B /* GoogleService-Info.plist */; };
+		C527ABB22C483CF200261B17 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527ABB12C483CF200261B17 /* ViewRouter.swift */; };
+		C53053212C44F93A00C3BE47 /* EducatorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53053202C44F93A00C3BE47 /* EducatorDetailView.swift */; };
+		C53053232C45026A00C3BE47 /* EnrollCoursesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53053222C45026A00C3BE47 /* EnrollCoursesViewModel.swift */; };
+		C5AC7DB72C365A7A006C0BCE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC7DB62C365A7A006C0BCE /* LoginView.swift */; };
+		C5AC7DB92C365A8E006C0BCE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC7DB82C365A8E006C0BCE /* SignUpView.swift */; };
+		C5AC7DBE2C3675A3006C0BCE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC7DBD2C3675A3006C0BCE /* ExploreView.swift */; };
+		C5AC7DC12C36BDC9006C0BCE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC7DC02C36BDC9006C0BCE /* HomeView.swift */; };
+		C5C1B84A2C40516F00328133 /* EducatorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C1B8492C40516F00328133 /* EducatorListView.swift */; };
+		C5D4F2A92C479E60005E1256 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F2A82C479E60005E1256 /* UserView.swift */; };
+		C5D4F2AB2C479E9A005E1256 /* HelpSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F2AA2C479E9A005E1256 /* HelpSupportView.swift */; };
+		C5D4F2AD2C479EF5005E1256 /* FAQview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F2AC2C479EF5005E1256 /* FAQview.swift */; };
+		C5D4F2AF2C479F28005E1256 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F2AE2C479F28005E1256 /* ContactUsView.swift */; };
+		C5D978CA2C3E4035007DF8DB /* MyCourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D978C92C3E4035007DF8DB /* MyCourses.swift */; };
+		C5D978CD2C3E405D007DF8DB /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D978CC2C3E405D007DF8DB /* MyProfile.swift */; };
+		C5D978D02C3E40B0007DF8DB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D978CF2C3E40B0007DF8DB /* Colors.swift */; };
+		C5D978D52C3E5D29007DF8DB /* EducatorCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D978D42C3E5D29007DF8DB /* EducatorCoursesView.swift */; };
+		C5D978D92C3E5DF8007DF8DB /* EducatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D978D82C3E5DF8007DF8DB /* EducatorView.swift */; };
+		C5D978DB2C3E5E81007DF8DB /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D978DA2C3E5E81007DF8DB /* CourseView.swift */; };
+		C5D978DF2C3E81A9007DF8DB /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5D978DD2C3E81A8007DF8DB /* PlayfairDisplay-Regular.ttf */; };
+		C5D978E02C3E81A9007DF8DB /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5D978DE2C3E81A9007DF8DB /* PlayfairDisplay-Bold.ttf */; };
+		C5D978E22C3E82D9007DF8DB /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D978E12C3E82D9007DF8DB /* AppColors.swift */; };
+		E4F05D9A2C40EFED001F79B5 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F05D992C40EFED001F79B5 /* CourseDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A98806B42C356E0C005D2F17 /* EduMatrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98806B72C356E0C005D2F17 /* EduMatrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduMatrixApp.swift; sourceTree = "<group>"; };
+		A98806B92C356E0C005D2F17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A98806BB2C356E0E005D2F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A98806BE2C356E0E005D2F17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A99212EA2C482DAD001BD986 /* forgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPassword.swift; sourceTree = "<group>"; };
+		A99985B92C3FA0B40056D68B /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		A99985BB2C3FA13C0056D68B /* Data Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Model.swift"; sourceTree = "<group>"; };
+		A99985BD2C3FAC780056D68B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C527ABB12C483CF200261B17 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		C53053202C44F93A00C3BE47 /* EducatorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducatorDetailView.swift; sourceTree = "<group>"; };
+		C53053222C45026A00C3BE47 /* EnrollCoursesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollCoursesViewModel.swift; sourceTree = "<group>"; };
+		C5AC7DB62C365A7A006C0BCE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C5AC7DB82C365A8E006C0BCE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C5AC7DBD2C3675A3006C0BCE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		C5AC7DC02C36BDC9006C0BCE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C5C1B8492C40516F00328133 /* EducatorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducatorListView.swift; sourceTree = "<group>"; };
+		C5D4F2A82C479E60005E1256 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		C5D4F2AA2C479E9A005E1256 /* HelpSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpSupportView.swift; sourceTree = "<group>"; };
+		C5D4F2AC2C479EF5005E1256 /* FAQview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQview.swift; sourceTree = "<group>"; };
+		C5D4F2AE2C479F28005E1256 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		C5D978C92C3E4035007DF8DB /* MyCourses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCourses.swift; sourceTree = "<group>"; };
+		C5D978CC2C3E405D007DF8DB /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		C5D978CF2C3E40B0007DF8DB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C5D978D42C3E5D29007DF8DB /* EducatorCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducatorCoursesView.swift; sourceTree = "<group>"; };
+		C5D978D82C3E5DF8007DF8DB /* EducatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducatorView.swift; sourceTree = "<group>"; };
+		C5D978DA2C3E5E81007DF8DB /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		C5D978DD2C3E81A8007DF8DB /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		C5D978DE2C3E81A9007DF8DB /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		C5D978E12C3E82D9007DF8DB /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		E4F05D992C40EFED001F79B5 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98806B12C356E0C005D2F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99985B42C3FA0900056D68B /* FirebaseAuth in Frameworks */,
+				A99985B62C3FA0900056D68B /* FirebaseFirestore in Frameworks */,
+				A99985B82C3FA0900056D68B /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98806AB2C356E0C005D2F17 = {
+			isa = PBXGroup;
+			children = (
+				A99985BD2C3FAC780056D68B /* GoogleService-Info.plist */,
+				A98806B62C356E0C005D2F17 /* EduMatrix */,
+				A98806B52C356E0C005D2F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98806B52C356E0C005D2F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98806B42C356E0C005D2F17 /* EduMatrix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98806B62C356E0C005D2F17 /* EduMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				C5D978DC2C3E6B81007DF8DB /* Fonts */,
+				C5D978CE2C3E4091007DF8DB /* extensions */,
+				C5AC7DB42C365A47006C0BCE /* Views */,
+				A98806B72C356E0C005D2F17 /* EduMatrixApp.swift */,
+				A98806B92C356E0C005D2F17 /* ContentView.swift */,
+				A99985B92C3FA0B40056D68B /* Services.swift */,
+				A99985BB2C3FA13C0056D68B /* Data Model.swift */,
+				A98806BB2C356E0E005D2F17 /* Assets.xcassets */,
+				A98806BD2C356E0E005D2F17 /* Preview Content */,
+			);
+			path = EduMatrix;
+			sourceTree = "<group>";
+		};
+		A98806BD2C356E0E005D2F17 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A98806BE2C356E0E005D2F17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5AC7DB42C365A47006C0BCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5D978CB2C3E404C007DF8DB /* Profile */,
+				C5D978C82C3E4018007DF8DB /* MyCourses */,
+				C5D978C72C3E3D91007DF8DB /* HomeScreen */,
+				C5AC7DB52C365A63006C0BCE /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5AC7DB52C365A63006C0BCE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C5AC7DB62C365A7A006C0BCE /* LoginView.swift */,
+				A99212EA2C482DAD001BD986 /* forgotPassword.swift */,
+				C5AC7DB82C365A8E006C0BCE /* SignUpView.swift */,
+				C5AC7DBD2C3675A3006C0BCE /* ExploreView.swift */,
+				C527ABB12C483CF200261B17 /* ViewRouter.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C5D978C72C3E3D91007DF8DB /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C5D978D32C3E5D10007DF8DB /* ReusableViews */,
+				C5AC7DC02C36BDC9006C0BCE /* HomeView.swift */,
+				C5C1B8492C40516F00328133 /* EducatorListView.swift */,
+				E4F05D992C40EFED001F79B5 /* CourseDetailView.swift */,
+				C53053202C44F93A00C3BE47 /* EducatorDetailView.swift */,
+				C53053222C45026A00C3BE47 /* EnrollCoursesViewModel.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		C5D978C82C3E4018007DF8DB /* MyCourses */ = {
+			isa = PBXGroup;
+			children = (
+				C5D978C92C3E4035007DF8DB /* MyCourses.swift */,
+			);
+			path = MyCourses;
+			sourceTree = "<group>";
+		};
+		C5D978CB2C3E404C007DF8DB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C5D978CC2C3E405D007DF8DB /* MyProfile.swift */,
+				C5D4F2A82C479E60005E1256 /* UserView.swift */,
+				C5D4F2AA2C479E9A005E1256 /* HelpSupportView.swift */,
+				C5D4F2AC2C479EF5005E1256 /* FAQview.swift */,
+				C5D4F2AE2C479F28005E1256 /* ContactUsView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C5D978CE2C3E4091007DF8DB /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5D978CF2C3E40B0007DF8DB /* Colors.swift */,
+				C5D978E12C3E82D9007DF8DB /* AppColors.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		C5D978D32C3E5D10007DF8DB /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				C5D978D42C3E5D29007DF8DB /* EducatorCoursesView.swift */,
+				C5D978D82C3E5DF8007DF8DB /* EducatorView.swift */,
+				C5D978DA2C3E5E81007DF8DB /* CourseView.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		C5D978DC2C3E6B81007DF8DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C5D978DE2C3E81A9007DF8DB /* PlayfairDisplay-Bold.ttf */,
+				C5D978DD2C3E81A8007DF8DB /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98806B32C356E0C005D2F17 /* EduMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98806C22C356E0E005D2F17 /* Build configuration list for PBXNativeTarget "EduMatrix" */;
+			buildPhases = (
+				A98806B02C356E0C005D2F17 /* Sources */,
+				A98806B12C356E0C005D2F17 /* Frameworks */,
+				A98806B22C356E0C005D2F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EduMatrix;
+			packageProductDependencies = (
+				A99985B32C3FA0900056D68B /* FirebaseAuth */,
+				A99985B52C3FA0900056D68B /* FirebaseFirestore */,
+				A99985B72C3FA0900056D68B /* FirebaseStorage */,
+			);
+			productName = EduMatrix;
+			productReference = A98806B42C356E0C005D2F17 /* EduMatrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98806AC2C356E0C005D2F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A98806B32C356E0C005D2F17 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A98806AF2C356E0C005D2F17 /* Build configuration list for PBXProject "EduMatrix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98806AB2C356E0C005D2F17;
+			packageReferences = (
+				A99985B22C3FA0900056D68B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A98806B52C356E0C005D2F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98806B32C356E0C005D2F17 /* EduMatrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98806B22C356E0C005D2F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D978E02C3E81A9007DF8DB /* PlayfairDisplay-Bold.ttf in Resources */,
+				A98806BF2C356E0E005D2F17 /* Preview Assets.xcassets in Resources */,
+				A98806BC2C356E0E005D2F17 /* Assets.xcassets in Resources */,
+				C5D978DF2C3E81A9007DF8DB /* PlayfairDisplay-Regular.ttf in Resources */,
+				A99985BE2C3FAC780056D68B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98806B02C356E0C005D2F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527ABB22C483CF200261B17 /* ViewRouter.swift in Sources */,
+				A99985BA2C3FA0B40056D68B /* Services.swift in Sources */,
+				C5AC7DB92C365A8E006C0BCE /* SignUpView.swift in Sources */,
+				C53053232C45026A00C3BE47 /* EnrollCoursesViewModel.swift in Sources */,
+				C53053212C44F93A00C3BE47 /* EducatorDetailView.swift in Sources */,
+				A99985BC2C3FA13C0056D68B /* Data Model.swift in Sources */,
+				C5D978D02C3E40B0007DF8DB /* Colors.swift in Sources */,
+				E4F05D9A2C40EFED001F79B5 /* CourseDetailView.swift in Sources */,
+				C5D4F2A92C479E60005E1256 /* UserView.swift in Sources */,
+				C5D978DB2C3E5E81007DF8DB /* CourseView.swift in Sources */,
+				C5D978D52C3E5D29007DF8DB /* EducatorCoursesView.swift in Sources */,
+				C5D4F2AB2C479E9A005E1256 /* HelpSupportView.swift in Sources */,
+				A99212EB2C482DAD001BD986 /* forgotPassword.swift in Sources */,
+				C5D978CD2C3E405D007DF8DB /* MyProfile.swift in Sources */,
+				C5D4F2AF2C479F28005E1256 /* ContactUsView.swift in Sources */,
+				C5AC7DC12C36BDC9006C0BCE /* HomeView.swift in Sources */,
+				C5D4F2AD2C479EF5005E1256 /* FAQview.swift in Sources */,
+				C5AC7DB72C365A7A006C0BCE /* LoginView.swift in Sources */,
+				A98806BA2C356E0C005D2F17 /* ContentView.swift in Sources */,
+				C5D978D92C3E5DF8007DF8DB /* EducatorView.swift in Sources */,
+				C5D978CA2C3E4035007DF8DB /* MyCourses.swift in Sources */,
+				C5D978E22C3E82D9007DF8DB /* AppColors.swift in Sources */,
+				C5AC7DBE2C3675A3006C0BCE /* ExploreView.swift in Sources */,
+				A98806B82C356E0C005D2F17 /* EduMatrixApp.swift in Sources */,
+				C5C1B84A2C40516F00328133 /* EducatorListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A98806C02C356E0E005D2F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98806C12C356E0E005D2F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98806C32C356E0E005D2F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EduMatrix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GU.EduMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A98806C42C356E0E005D2F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EduMatrix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GU.EduMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98806AF2C356E0C005D2F17 /* Build configuration list for PBXProject "EduMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98806C02C356E0E005D2F17 /* Debug */,
+				A98806C12C356E0E005D2F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98806C22C356E0E005D2F17 /* Build configuration list for PBXNativeTarget "EduMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98806C32C356E0E005D2F17 /* Debug */,
+				A98806C42C356E0E005D2F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A99985B22C3FA0900056D68B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A99985B32C3FA0900056D68B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A99985B22C3FA0900056D68B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A99985B52C3FA0900056D68B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A99985B22C3FA0900056D68B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A99985B72C3FA0900056D68B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A99985B22C3FA0900056D68B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A98806AC2C356E0C005D2F17 /* Project object */;
+}
